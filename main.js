@@ -32,8 +32,8 @@ const saveData = (data) => {
   }
 };
 
-const BOT_TOKEN = process.env.BOT_TOKEN;
-const CMC_API_KEY = process.env.CMC_API_KEY;
+const BOT_TOKEN = '1376192803008873502:JyQyFUfTFXOPzhUeEVtvYUGedzFZDAOBEuBPEEhxkINoinFmAusflcgORgygNxqh';
+const CMC_API_KEY = 'cb2a0a6a3c064083a2516dbcb7696d8b';
 
 const bot = new ZaloBot(BOT_TOKEN, {
   polling: true
